@@ -1,0 +1,104 @@
+.shubiao{
+    width: 90px;
+    height: 90px;
+    position: fixed;
+    top: 300px;
+    cursor: none;
+    border-radius: 50%;
+    background-color: transparent;
+    border: black 1px solid;
+    box-shadow: 0 0 10px 5px #c471ed ;
+    background-image: url('../iconfont/1.png') ;
+    background-size: 90px 90px;
+    z-index: 0.5;
+}
+.shubiaodian{
+    animation: shubiaodian 1s linear forwards;
+}
+.shubiaodian1{
+    animation: shubiaodian1 1s linear forwards;
+}
+.shubiaodian2{
+    animation: shubiaodian2 1s linear forwards;
+}
+.shubiaodian3{
+    animation: shubiaodian3 1s linear forwards;
+}
+.shubiaodian4{
+    animation: shubiaodian4 1s linear forwards;
+}
+.shubiaodian5{
+    animation: shubiaodian5 1s linear forwards;
+}
+@keyframes shubiaodian{
+    
+    0%{
+
+        box-shadow:none;
+
+    }
+    100%{
+     
+            box-shadow: 0 0 40px 7px #99f2c8;
+        }
+    }
+    @keyframes shubiaodian1{
+    
+    0%{
+      
+        box-shadow:none;
+
+    }
+    100%{
+     
+            box-shadow: 0 0 40px 7px #f5af19;
+        }
+    }
+    @keyframes shubiaodian2{
+       
+        0%{
+            
+            box-shadow:none;
+    
+        }
+        100%{
+         
+                box-shadow: 0 0 40px 7px #FF0099 ;
+            }
+        }
+@keyframes shubiaodian3{
+    
+    0%{
+     
+        box-shadow:none;
+
+    }
+    100%{
+    
+            box-shadow: 0 0 40px 7px #FFFFFF  ;
+        }
+    }
+    @keyframes shubiaodian4{
+        
+        0%{
+            
+            box-shadow:none;
+    
+        }
+        100%{
+        
+                box-shadow: 0 0 40px 7px #6DD5FA;
+            }
+        }
+        @keyframes shubiaodian5{
+           
+            0%{
+                
+                box-shadow:none;
+        
+            }
+            100%{
+                
+                    box-shadow: 0 0 40px 7px #f64f59 ;
+                }
+            }

@@ -1,0 +1,469 @@
+.nav {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  left: 0;
+  top: 0%;
+  z-index: 10;
+  box-shadow: 0 2px 10px #fff;
+}
+.nav .dh_bx {
+  width: 1200px;
+  height: 100px;
+  margin: 0% auto;
+  position: relative;
+  transform-style: preserve-3d;
+}
+.nav .dh_bx .dh_dz {
+  width: 120px;
+  height: 100px;
+  float: left;
+  border-left: 1px transparent solid;
+}
+.nav .dh_bx .dh_dz a {
+  display: block;
+  width: 120px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  color: #12c2e9;
+  font-family: "宋体";
+}
+.nav .dh_bx .dh_dz .dh_dz_sj {
+  width: 0%;
+  height: 0%;
+  border: 6px solid transparent;
+  border-top: 6px solid #12c2e9;
+  vertical-align: middle;
+  position: absolute;
+  left: 90px;
+  top: 46px;
+  transition: all 0.3s linear;
+  transform-origin: 6px 3px;
+}
+.nav .dh_bx .dh_mk {
+  width: 560px;
+  height: 100px;
+  margin-left: 20px;
+  float: left;
+}
+.nav .dh_bx .dh_mk .dh_mk1 {
+  width: 80px;
+  height: 100px;
+  background-image: linear-gradient(0deg, #93EDC7, #341dca);
+  float: left;
+}
+.nav .dh_bx .dh_mk .dh_mk1 a {
+  display: block;
+  height: 100px;
+  width: 80px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: #fff 0 0 5px;
+  transform: translateZ(225px);
+}
+.nav .dh_bx .dh_mk ul {
+  width: 480px;
+  height: 100px;
+  float: left;
+}
+.nav .dh_bx .dh_mk ul .dh_mk_li {
+  width: 80px;
+  height: 100px;
+  position: absolute;
+  list-style: none;
+}
+.nav .dh_bx .dh_mk ul .dh_mk_li .dh_mk_li_div {
+  width: 80px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  transform: rotateX(0deg);
+  transform-style: preserve-3d;
+}
+.nav .dh_bx .dh_mk ul .dh_mk_li .dh_mk_li_div .dh_mk2 {
+  width: 80px;
+  height: 100px;
+  background-image: linear-gradient(0deg, #93EDC7, #341dca);
+  transform: rotateX(-90deg) translateZ(50px);
+  position: absolute;
+}
+.nav .dh_bx .dh_mk ul .dh_mk_li .dh_mk_li_div .dh_mk3 {
+  width: 80px;
+  height: 100px;
+  color: #ccc;
+  position: absolute;
+  transform: translateZ(50px);
+}
+.nav .dh_bx .dh_mk ul .dh_mk_li .dh_mk4 {
+  transform: translateZ(55px);
+  position: absolute;
+  top: 40px;
+  left: 22px;
+  font-weight: 700;
+  color: #12c2e9 ;
+  transform-style: preserve-3d;
+}
+.nav .dh_bx .dh_ewm {
+  width: 150px;
+  height: 100px;
+  float: left;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 700;
+  color: #12c2e9 ;
+  cursor: pointer;
+}
+.nav .dh_bx .dh_ewm a {
+  color: #12c2e9 ;
+}
+.nav .dh_bx .dh_ewm .dh_ewm_sj {
+  width: 0%;
+  height: 0%;
+  border: 6px solid transparent;
+  border-top: 6px solid #12c2e9;
+  vertical-align: middle;
+  position: absolute;
+  left: 818px;
+  top: 46px;
+  transition: all 0.3s linear;
+  transform-origin: 6px 3px;
+}
+.nav .dh_bx .dh_ss {
+  float: left;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+}
+.nav .dh_bx .dh_ss .dh_ss_s {
+  width: 180px;
+  height: 40px;
+  margin-top: 30px;
+  border: #0044ff 3px solid;
+  outline-style: none;
+  border-radius: 20px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  color: #c7c1c1;
+  background-color: #fff;
+}
+.nav .dh_bx .dh_ss .dh_ss_d {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #0044ff;
+  outline-style: none;
+  border-style: none;
+  background-image: url(../hearimg/sousuo.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 10px 10px;
+  position: absolute;
+  left: 1003px;
+  top: 31px;
+  cursor: pointer;
+}
+.nav .dh_bx .dh_dl {
+  width: 149px;
+  height: 100px;
+  float: left;
+}
+.nav .dh_bx .dh_dl a {
+  height: 40px;
+  width: 40px;
+  display: block;
+  margin: 28px 0 0 41px;
+}
+.nav .dh_bx .dh_dl a img {
+  height: 40px;
+  width: 40px;
+}
+.nav .dh_bx .dh_dl .dh_dl_sj {
+  width: 0%;
+  height: 0%;
+  border: 6px solid transparent;
+  border-top: 6px solid #12c2e9;
+  vertical-align: middle;
+  position: absolute;
+  left: 1153px;
+  top: 46px;
+  transition: all 0.3s linear;
+  transform-origin: 6px 3px;
+}
+.dh_mk_li0 {
+  left: 220px;
+}
+.dh_mk_li1 {
+  left: 300px;
+}
+.dh_mk_li2 {
+  left: 380px;
+}
+.dh_mk_li3 {
+  left: 460px;
+}
+.dh_mk_li4 {
+  left: 540px;
+}
+.dh_mk_li5 {
+  left: 620px;
+}
+.nav_bian {
+  transform: rotate(180deg);
+}
+.dh_dz_xl {
+  height: 300px;
+  width: 280px;
+  border-top: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: auto;
+  position: fixed;
+  top: -202px;
+  left: 6%;
+  z-index: 6;
+}
+.dh_dz_xl .dh_dz_xl_bx {
+  width: 250px;
+  height: 301px;
+}
+.dh_dz_xl .dh_dz_xl_bx ol {
+  list-style: upper-alpha;
+  margin: 5px 30px;
+  margin-right: 20px;
+}
+.dh_dz_xl .dh_dz_xl_bx ol li {
+  color: #ccc;
+  font-weight: 700;
+  margin: 20px 15px;
+  line-height: 20px;
+  font-size: 14px;
+}
+.dh_dz_xl .dh_dz_xl_bx ol li a {
+  color: #ccc;
+}
+.dh_dz_xl_ding {
+  width: 282px;
+  height: 50px;
+  background-color: #010101;
+  padding-left: 30px;
+  line-height: 50px;
+  color: #ccc;
+  box-sizing: border-box;
+  position: fixed;
+  top: 50px;
+  left: 6%;
+  z-index: 9;
+  font-family: serif;
+}
+.dh_dz_xl_ding span {
+  color: yellow;
+  font-weight: 700;
+}
+.dh_ewm_xl {
+  width: 150px;
+  height: 200px;
+  position: fixed;
+  top: -100px;
+  left: 790px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9;
+}
+.dh_ewm_xl img {
+  width: 120px;
+  height: 120px;
+  margin: 10px auto 20px;
+  display: block;
+}
+.dh_ewm_xl span {
+  color: #ccc;
+  font-weight: 700;
+}
+.dh_dl_xl {
+  width: 100px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.479);
+  position: fixed;
+  left: 1155px;
+  top: 50px;
+  z-index: 9;
+  text-align: center;
+  line-height: 50px;
+}
+.dh_dl_xl a {
+  color: #0044ff;
+  font-size: 15px;
+  font-weight: 700;
+}
+.dh_dl_xl_bian {
+  animation: dh_dl_xl_bian 0.3s linear forwards;
+}
+@keyframes dh_dl_xl_bian {
+  0% {
+    position: fixed;
+    top: 50px;
+  }
+  100% {
+    position: fixed;
+    top: 100px;
+  }
+}
+.dh_dl_xl_bian1 {
+  animation: dh_dl_xl_bian1 0.3s linear forwards;
+}
+@keyframes dh_dl_xl_bian1 {
+  0% {
+    position: fixed;
+    top: 100px;
+  }
+  100% {
+    position: fixed;
+    top: 50px;
+  }
+}
+a:hover {
+  color: orange ;
+}
+.dh_dz_xl_bian {
+  animation: dh_xl 1s ease forwards 0.5s;
+}
+.dh_dz_xl_ding_bian {
+  animation: dh_xl_ding 0.5s ease forwards;
+}
+.dh_dz_xl_bian1 {
+  animation: dh_xl1 1s ease forwards;
+}
+.dh_dz_xl_ding_bian1 {
+  animation: dh_xl_ding1 0.5s ease forwards;
+}
+@keyframes dh_xl {
+  0% {
+    position: fixed;
+    top: -200px;
+  }
+  95% {
+    position: fixed;
+    top: 145px;
+  }
+  100% {
+    position: fixed;
+    top: 140px;
+  }
+}
+@keyframes dh_xl_ding {
+  0% {
+    position: fixed;
+    top: 50px;
+  }
+  100% {
+    position: fixed;
+    top: 100px;
+  }
+}
+@keyframes dh_xl1 {
+  0% {
+    position: fixed;
+    top: 100px;
+  }
+  100% {
+    position: fixed;
+    top: -200px;
+  }
+}
+@keyframes dh_xl_ding1 {
+  0% {
+    position: fixed;
+    top: 100px;
+  }
+  100% {
+    position: fixed;
+    top: 50px;
+  }
+}
+.dh_mk_bian {
+  animation: dh_mk_bian 0.3s linear forwards;
+}
+.dh_mk_a_bian {
+  animation: dh_mk_a_bian 0.3s linear forwards;
+}
+.dh_mk_bian1 {
+  animation: dh_mk_bian1 0.3s linear forwards;
+}
+.dh_mk_a_bian1 {
+  animation: dh_mk_a_bian1 0.3s linear forwards;
+}
+@keyframes dh_mk_bian {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(90deg);
+  }
+}
+@keyframes dh_mk_a_bian {
+  0% {
+    color: #12c2e9;
+  }
+  60% {
+    color: #12c2e9;
+  }
+  60.1% {
+    color: #fff;
+  }
+  100% {
+    color: #fff;
+  }
+}
+@keyframes dh_mk_bian1 {
+  0% {
+    transform: rotateX(90deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+@keyframes dh_mk_a_bian1 {
+  0% {
+    color: #fff;
+  }
+  60% {
+    color: #fff;
+  }
+  60.1% {
+    color: #12c2e9;
+  }
+  100% {
+    color: #12c2e9;
+  }
+}
+.dh_ewm_xl_bian {
+  animation: dh_ewm_xl 0.3s linear forwards;
+}
+@keyframes dh_ewm_xl {
+  0% {
+    position: fixed;
+    top: -100px;
+  }
+  100% {
+    position: fixed;
+    top: 100px;
+  }
+}
+.dh_ewm_xl_bian1 {
+  animation: dh_ewm_xl1 0.3s linear forwards;
+}
+@keyframes dh_ewm_xl1 {
+  0% {
+    position: fixed;
+    top: 100px;
+  }
+  100% {
+    position: fixed;
+    top: -100px;
+  }
+}
